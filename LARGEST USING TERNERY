@@ -1,0 +1,13 @@
+*#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c,largest;
+	cout<<"value of a,b,c"<<endl;
+	cin>>a;
+	cin>>b;
+	cin>>c;
+	largest=(a>b)?((a>c)?a:c):((b>c)?b:c);
+	cout<<"largest value "<<largest;
+	
+}
