@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,divisible;
+	cout<<"value of a";
+	cin>>a;
+	divisible=(a%3==0)?true:false;
+	cout<<"divisible"<<divisible;
+	return 0;
+}
