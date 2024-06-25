@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,temp,lcm,aori,bori;
+	cout<<"value of a"<<endl;
+	cin>>a;
+	cout<<"value of b"<<endl;
+	cin>>b;
+	aori=a;
+	bori=b;
+	while(b!=0)
+	{
+	temp=b;
+	b=a%b;
+	a=temp;
+	}
+	cout<<"GCD is "<<a<<endl;
+	lcm=aori*bori/a;
+	cout<<"LCM IS "<<lcm<<endl;
+	
+}*/
