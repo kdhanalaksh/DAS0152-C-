@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,n,t;
+	cout<<"enter the number";
+	cin>>n;
+	cin>>t;
+	for(i=1;i<=n;i++)
+	{
+		cout<<i*t;
+	}
+	return 0;
+}
