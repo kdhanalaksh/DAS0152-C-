@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a[100],i,n,t;
+	cout<<"\n enter the limit";
+	cin>>n;
+	for(i=0;i<n;i++)
+	{
+		cout<<"\n enter the value";
+		cin>>a[i];
+	}
+	cout<<"\n value to serach element";
+	cin>>t;
+	for(i=0;i<n;i++)
+	{
+		
+	if(a[i]==t)
+		{
+			cout<<"\n element found";
+			return 0;
+		}
+}
+	cout<<"element not found";
+		
+return 0;
+	
+}
